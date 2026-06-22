@@ -1,231 +1,87 @@
-FinTrack – Personal Finance Manager
+# 🚀 FinTrack – Personal Finance Manager
 
-Track Smarter. Save Better.
+**Track Smarter. Save Better.**
 
-FinTrack is a full-stack MERN-based Personal Finance Manager designed to help users monitor income, track expenses, manage budgets, and achieve savings goals through an intuitive dashboard and insightful financial analytics.
-
-Developed as part of the Bharat Academix CodeQuest Hackathon 2026, FinTrack aims to improve financial awareness and encourage smarter money management among students, professionals, freelancers, and small business owners.
+FinTrack is a full-stack MERN Personal Finance Manager designed to help users track income, expenses, budgets, and savings goals through an intuitive dashboard. It provides financial insights, analytics, and goal-based planning for better money management.
 
 ---
 
-Problem Statement
+## 🔗 Live Demo
 
-Many individuals struggle with:
-
-- Tracking daily expenses
-- Managing monthly budgets
-- Monitoring savings goals
-- Understanding spending patterns
-- Maintaining financial discipline
-
-Most existing solutions are either too complex or lack personalized financial planning features.
+[https://fin-track-ocwo4j7cv-krisha3.vercel.app](https://fin-track-ocwo4j7cv-krisha3.vercel.app)
 
 ---
 
-Proposed Solution
+## 🖥️ Backend API
 
-FinTrack provides a centralized platform where users can:
-
-- Record income and expenses
-- Monitor financial health through a dashboard
-- Set monthly budgets
-- Track savings goals
-- Analyze spending habits through visual reports
-- Make informed financial decisions
+[https://fintrack-be-74mv.onrender.com](https://fintrack-be-74mv.onrender.com)
 
 ---
 
-Key Features
+## ✨ Features
 
-User Authentication
-
-- Secure Sign Up & Login
-- JWT Authentication
-- Password Hashing using bcrypt
-
-Dashboard
-
-- Total Income Overview
-- Total Expense Overview
-- Current Balance Calculation
-- Savings Summary
-- Financial Insights
-
-Transaction Management
-
-- Add Transactions
-- Edit Transactions
-- Delete Transactions
-- Categorized Expense Tracking
-
-Categories include:
-
-- Food
-- Travel
-- Shopping
-- Bills
-- Entertainment
-- Other
-
-Budget Planning
-
-- Set Monthly Budgets
-- Category-wise Budget Monitoring
-- Spending Limit Alerts
-- Budget Utilization Tracking
-
-Savings Goals
-
-- Create Savings Goals
-- Set Target Amount
-- Track Progress
-- Monitor Goal Completion
-
-Financial Analytics
-
-- Expense Distribution Pie Chart
-- Income vs Expense Analysis
-- Monthly Spending Trends
-- Interactive Visual Reports
+* Secure Login & Signup (JWT Authentication)
+* Income Tracking
+* Expense Tracking
+* Budget Planning & Alerts
+* Savings Goal Management
+* Dashboard Analytics
+* Transaction History
+* Pie Charts & Financial Insights
 
 ---
 
-Technology Stack
+## 🛠️ Tech Stack
 
-Frontend
+### Frontend
 
-- React.js
-- Vite
-- Tailwind CSS
-- Axios
-- Recharts
+* React.js
+* Vite
+* Tailwind CSS
+* Recharts
+* Axios
 
-Backend
+### Backend
 
-- Node.js
-- Express.js
-
-Database
-
-- MongoDB Atlas
-- Mongoose
-
-Authentication
-
-- JWT (JSON Web Token)
-- bcrypt
+* Node.js
+* Express.js
+* MongoDB Atlas
+* JWT Authentication
+* bcrypt
 
 ---
 
-System Architecture
+## 👥 Team
 
-User
-↓
-React Frontend
-↓
-Express REST API
-↓
-MongoDB Atlas Database
-
-Authentication Layer:
-JWT + bcrypt
-
----
-
-Database Collections
-
-Users
-
-- Name
-- Email
-- Password
-
-Transactions
-
-- Amount
-- Type (Income / Expense)
-- Category
-- Description
-- Date
-
-Budgets
-
-- Monthly Budget
-- Category Budget
-- User Reference
-
-Goals
-
-- Goal Name
-- Target Amount
-- Saved Amount
-- Deadline
-
----
-
-Project Highlights
-
-- Secure Authentication System
-- Complete CRUD Operations
-- Responsive User Interface
-- Data Visualization with Charts
-- Real-world Financial Use Case
-- Scalable MERN Architecture
-- Clean Dashboard Experience
-
----
-
-Future Scope
-
-- AI-Powered Spending Insights
-- Smart Budget Recommendations
-- UPI Integration
-- Investment Portfolio Tracking
-- Voice Assistant Support
-- PDF Report Generation
-- Multi-Currency Support
-
----
-
-Installation & Setup
-
-Backend
-
-cd backend
-npm install
-npm run dev
-
-Frontend
-
-cd frontend
-npm install
-npm run dev
-
---
-
-Team Leader
-
+**Team Leader:**
 Krisha Gala
 
-Team Members
+**Team Members:**
 
-Saniya Durgude
 Sharvari Thale
+Saniya Durgude
 
 ---
 
-Hackathon Submission
+## 🏆 Hackathon
 
-Project: FinTrack – Personal Finance Manager
-
-Category: FinTech
-
-Built for: Bharat Academix CodeQuest Hackathon 2026
-
-Status: Functional MVP
+Bharat Academix CodeQuest 2026
 
 ---
 
-License
+## 📌 Project Status
 
-This project is developed for educational and hackathon purposes.
+✅ Prototype (MVP) Completed
+
+---
+
+## 🚀 Future Scope
+
+* AI-based Spending Insights
+* Email Notifications
+* PDF Report Generation
+* Recurring Expense Tracking
+* Multi-Currency Support
+* Investment Tracking
+* UPI Integration
+
